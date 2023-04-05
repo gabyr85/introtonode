@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Random Quote Generator</title>
+		<style>
+			body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+      }
+
+      #quote {
+        font-size: 24px;
+        margin: 50px 0;
+      }
+      #new-quote {
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+
+      #new-quote:hover {
+        background-color: #3E8E41;
+      }
+		</style>
+	</head>
+	<body>
+	<!--In this HTML, we have a div element with an id of quote where we will display the random quote. We also have a button element with an id of new-quote that the user can click to get a new quote. Finally, we have a script element that references an external JavaScript file called script.js, which we will create in the next step.-->
+
+
+		<div id="quote"></div>
+		<button id="new-quote">New Quote</button>
+		<script src="script_newquote.js"></script>
+	</body>
+</html>
