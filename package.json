@@ -1,0 +1,19 @@
+{
+  "name": "nodefiles",
+  "version": "18.15.0",
+  "description": "simple web app",
+  "main": "hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabyr85/introtonode.git"
+  },
+  "author": "Gaby Rollins",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gabyr85/introtonode/issues"
+  },
+  "homepage": "https://github.com/gabyr85/introtonode#readme"
+}
